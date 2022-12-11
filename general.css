@@ -1,0 +1,271 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black ;
+}
+
+/* NAVBAR STYLING STARTS */
+
+/*to design the navbar*/
+.navigation-bar {
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 20px;  
+    background-color: black;  
+    color: #1570bb;
+    font-size: 28px;
+    }
+    
+    /*to edit the navigation buttons*/
+    .nav-links a {  
+      text-decoration: none;
+      color: #1570bb;
+      font-weight: bold;
+      
+    }
+    
+    /* NAVBAR MENU */
+    
+    .menu {  
+    display: flex;    
+    list-style: none;  
+    gap: 1em;  
+    font-size: 18px;
+    
+    }    
+    .menu li:hover {  
+    background-color: white;  
+    border-radius: 5px;  
+    transition: 0.3s ease;  
+    color: #212529;
+    }    
+    .menu li {    
+    padding: 5px 14px;
+    }
+
+/* Banner Start */
+.banner_title {
+    font-size: 4.5rem;
+	color: #1570bb;
+	font-weight: bold;
+}
+.banner_desc {
+    font-size: 2rem;
+}
+.blue-text {
+  color: #1570bb;
+}
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+/* Banner End */
+
+/* Blue Color Button */
+.blue-btn{
+    background-color: #1570bb;
+    color: white;
+  }
+/* Blue Color Button End*/
+.text-center {
+    text-align: center!important;
+}
+
+/* the sizing of the Container CSS */
+.container {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Container End */
+
+/* Row CSS */
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px ;
+    
+}
+
+/* Row End */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.margin_bottom-3 {
+    margin-bottom: 3rem!important;
+}
+.margin_top-3 {
+    margin-top: 3rem!important;
+}
+h4 {
+    font-size: 20px;
+}
+
+/* Button CSS */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+
+    border: 1px solid transparent;
+    padding: .800rem .800rem;
+    font-size: 1rem;
+    transition: all 0.8s;
+}
+.btn:hover {
+    color: #212529;
+    border-radius: 2.25rem;
+}
+
+.btn:active{
+    color:#1570bb;
+    background-color:white;
+    
+}
+
+/* Button CSS End */
+.margin_bottom-05 {
+    margin-bottom: 0.5rem!important;
+}
+.margin_top-05 {
+    margin-top: 0.5rem!important;
+}
+.margin_top-15 {
+    margin-top: 1.5rem!important;
+}
+.margin_top-1 {
+    margin-top: 1rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.text-white{
+    color: white !important;
+}
+
+
+.text-grey {
+   
+    color: #6c757d!important;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: grey; /* make scrollbar transparent */
+}
+.text-end {
+    text-align: right!important;
+}
+    
+   
+   
+    
+  
+    
+    .colum_s {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .colum_f {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    
+   
+  
+    
+.fa {
+    padding: 9px;
+   font-size: 19px;
+     text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+ 
+ .fa-twitter:hover {
+     opacity: 0.7;
+     background-color : white;
+ }
+ 
+ .fa-instagram:hover {
+   opacity: 0.7;
+ background-color : white;
+ }
+ 
+ .fa-snapchat:hover {
+   opacity: 0.7;
+ background-color : white;
+ }
+ 
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ .fa-instagram {
+   background: purple;
+   color: white;
+ }
+ .fa-snapchat {
+   background: #b4b226;
+   color: white;
+ }
+    
+     h2 {
+        font-size: 2rem;
+    }
+     h1{
+        font-size: 2.5rem;
+        font-family:monospace;
+    }
+    .container {
+        max-width: 1140px;
+    }
+
+    .pics-10{
+width: 100%;
+height: 100%;
+
+    }
+

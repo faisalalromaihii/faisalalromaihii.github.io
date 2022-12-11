@@ -1,0 +1,56 @@
+/* Home About Section */
+   .about-section{
+    margin-top:20px;
+   padding: 5px;
+   color: white;
+}
+
+/*adjusting the size of the rounded image */
+.rounded-circle {
+  border-radius: 50%!important;
+  height: 50%;
+  width: 50%;
+  float:right;
+
+
+}
+
+/* quotes */
+blockquote {
+    position: relative;
+    text-align: left;
+    padding: 1.2em 0 2em 38px;
+    border: none;
+    margin: 50px auto 20px;
+    max-width: 800px;
+    width:100%;
+    display: block;
+}
+
+
+/*adding the quote symbol*/
+blockquote:before {
+    content:"\f10d";
+    font-family: "fontawesome";
+    font-size: 20px;
+    display: block;
+    margin-bottom: 0.8em;
+    font-weight: 400;
+    color: #1570bb;
+}
+
+/*editing the name of the author*/
+blockquote > cite, 
+blockquote > p > cite {
+    display: block;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1.1em;
+    letter-spacing: 0;
+    font-style:italic;
+    
+}
+/* quote end */
+
